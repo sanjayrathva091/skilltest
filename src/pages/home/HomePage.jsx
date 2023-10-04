@@ -1,5 +1,11 @@
+import Carousel from "../../components/commons/Carousel";
+
 function HomePage() {
-  return <h1>Home Page</h1>;
+  return (
+    <section>
+      <Carousel />
+    </section>
+  );
 }
 
 export default HomePage;

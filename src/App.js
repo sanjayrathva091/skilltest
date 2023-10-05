@@ -7,6 +7,8 @@ import LoginRegisterPage from './pages/login/LoginRegister';
 import AnnouncementPage from './pages/announcement/AnnouncementPage';
 import ContactPage from './pages/contact/ContactPage';
 import CareerPage from './pages/career/CareerPage';
+import ProductListPage from './pages/products/ProductListPage';
+import ProductDetailPage from './pages/products/ProductDetailPage';
 
 
 function App() {
@@ -16,6 +18,9 @@ function App() {
         <Route path="/" element={<GlobalLayout />}>
           <Route index element={<HomePage />} />
           <Route path="about" element={<AboutPage />} />
+          <Route path="products/*" element={<ProductListPage />}>
+            <Route path=":_id" element={<ProductDetailPage />} />
+          </Route>
           <Route path="login" element={<LoginRegisterPage />} />
           <Route path="announcement" element={<AnnouncementPage />} />
           <Route path="contact" element={<ContactPage />} />

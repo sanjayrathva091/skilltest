@@ -3,7 +3,7 @@ function AppFooter() {
     <footer className="bg-body-secondary pt-5">
       <div className="container">
         <div className="row">
-          <div className="col">
+          <div className="col-12 col-md-6 col-lg-3">
             <img
               src={"https://bansalsupermarket.com/upload/home/android_icon.png"}
               width="200"
@@ -11,15 +11,15 @@ function AppFooter() {
             />
             <img
               src={"https://bansalsupermarket.com/upload/home/apple_icon.png"}
-              className="my-3"
+              className="d-block my-3"
               width="200"
               alt="playstore"
             />
 
-            <button className="btn btn-primary">Subscribe</button>
+            <button className="btn btn-primary d-block">Subscribe</button>
           </div>
           {Object.entries(footerList).map(([keey, val]) => (
-            <div key={keey} className="col">
+            <div key={keey} className="col-12 col-md-6 col-lg-3">
               <h3>{keey.split("_").join(" ")}</h3>
               <ul>
                 {val.map((label, index) => (

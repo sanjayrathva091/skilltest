@@ -7,6 +7,10 @@ import {
 } from "react-icons/md";
 import shoppingmall from "../../assets/supermarket.jpg";
 import movieplex from "../../assets/movieplex.jpg";
+import deal1 from "../../assets/deal1.jpg";
+import deal2 from "../../assets/deal2.png";
+import deal3 from "../../assets/deal3.png";
+import deal4 from "../../assets/deal4.jpg";
 
 function HomePage() {
   return (
@@ -61,6 +65,104 @@ function HomePage() {
                       <p className="card-text">Your Happiness, Our Priority</p>
                     </div>
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="px-5">
+        <div className="row row-cols-1 row-cols-lg-3 row-cols-md-1 g-4">
+          <div className="col">
+            <div
+              id="carouselExampleSlidesOnly"
+              className="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div className="carousel-inner">
+                <div className="carousel-item active">
+                  <img
+                    src={deal1}
+                    className="d-block w-100 rounded"
+                    alt="slide1"
+                  />
+                </div>
+                <div className="carousel-item">
+                  <img
+                    src={deal2}
+                    className="d-block w-100 rounded"
+                    alt="slide2"
+                  />
+                </div>
+                <div className="carousel-item">
+                  <img
+                    src={deal3}
+                    className="d-block w-100 rounded"
+                    alt="slide3"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col">
+            <div
+              id="carouselExampleSlidesOnly"
+              className="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div className="carousel-inner">
+                <div className="carousel-item active">
+                  <img
+                    src={deal2}
+                    className="d-block w-100 rounded"
+                    alt="slide1"
+                  />
+                </div>
+                <div className="carousel-item">
+                  <img
+                    src={deal3}
+                    className="d-block w-100 rounded"
+                    alt="slide2"
+                  />
+                </div>
+                <div className="carousel-item">
+                  <img
+                    src={deal1}
+                    className="d-block w-100 rounded"
+                    alt="slide3"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col">
+            <div
+              id="carouselExampleSlidesOnly"
+              className="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div className="carousel-inner">
+                <div className="carousel-item active">
+                  <img
+                    src={deal3}
+                    className="d-block w-100 rounded"
+                    alt="slide1"
+                  />
+                </div>
+                <div className="carousel-item">
+                  <img
+                    src={deal1}
+                    className="d-block w-100 rounded"
+                    alt="slide2"
+                  />
+                </div>
+                <div className="carousel-item">
+                  <img
+                    src={deal2}
+                    className="d-block w-100 rounded"
+                    alt="slide3"
+                  />
                 </div>
               </div>
             </div>

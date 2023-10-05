@@ -4,7 +4,11 @@ import thirdslide from "../../assets/flea-market-5002452_1280.jpg";
 
 function Carousel() {
   return (
-    <div id="carouselExampleCaptions" className="carousel slide">
+    <div
+      id="carouselExampleCaptions"
+      className="carousel slide"
+      data-bs-ride="carousel"
+    >
       <div className="carousel-indicators">
         <button
           type="button"
@@ -31,21 +35,21 @@ function Carousel() {
         <div className="carousel-item active">
           <img src={firstslide} className="d-block w-100" alt="..." />
           <div className="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
+            <h5>Discover the Korona Shopping Experience</h5>
             <p>Some representative placeholder content for the first slide.</p>
           </div>
         </div>
         <div className="carousel-item">
           <img src={secondslide} className="d-block w-100" alt="..." />
           <div className="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
+            <h5>Bag Bliss: Shop for School</h5>
             <p>Some representative placeholder content for the second slide.</p>
           </div>
         </div>
         <div className="carousel-item">
           <img src={thirdslide} className="d-block w-100" alt="cheesebanner" />
           <div className="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
+            <h5>Winter Wardrobe Essentials</h5>
             <p>Some representative placeholder content for the third slide.</p>
           </div>
         </div>

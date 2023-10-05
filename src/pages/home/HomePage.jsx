@@ -1,4 +1,5 @@
 import Carousel from "../../components/commons/Carousel";
+import { Link } from "react-router-dom";
 import { BiSolidOffer } from "react-icons/bi";
 import {
   MdVerifiedUser,
@@ -12,9 +13,9 @@ function HomePage() {
     <main>
       <section>
         {<Carousel />}
-        <div class="container text-center my-5">
-          <div class="row">
-            <div class="col">
+        <div className="container text-center my-5">
+          <div className="row">
+            <div className="col">
               <div className="card mb-3">
                 <div className="row g-0 align-items-center">
                   <div className="col-md-4">
@@ -31,7 +32,7 @@ function HomePage() {
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div className="col">
               <div className="card mb-3">
                 <div className="row g-0 align-items-center">
                   <div className="col-md-4">
@@ -48,7 +49,7 @@ function HomePage() {
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div className="col">
               <div className="card mb-3">
                 <div className="row g-0 align-items-center">
                   <div className="col-md-4">
@@ -73,58 +74,62 @@ function HomePage() {
         </p>
         <h1 className="text-center text-dark fw-bold">Our Group Companies</h1>
 
-        <div class="container text-center">
-          <div class="row">
-            <div class="col">
-              <div class="card">
+        <div className="container text-center">
+          <div className="row">
+            <div className="col">
+              <div className="card">
                 <img
                   src={shoppingmall}
-                  class="card-img-top"
+                  className="card-img-top"
                   alt="shoppingmall"
                 />
-                <div class="card-body">
-                  <h5 class="card-title">Korona Shopping Mall</h5>
-                  <p class="card-text">
+                <div className="card-body">
+                  <h5 className="card-title">Korona Shopping Mall</h5>
+                  <p className="card-text">
                     With supporting text below as a natural lead-in to
                     additional content.
                   </p>
-                  <a href="#" class="btn btn-primary">
+                  <Link to="#" className="btn btn-primary">
                     Go somewhere
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div class="card">
-                <img src={movieplex} class="card-img-top" alt="shoppingmall" />
-                <div class="card-body">
-                  <h5 class="card-title">Galeria Movieplex</h5>
-                  <p class="card-text">
+            <div className="col">
+              <div className="card">
+                <img
+                  src={movieplex}
+                  className="card-img-top"
+                  alt="shoppingmall"
+                />
+                <div className="card-body">
+                  <h5 className="card-title">Galeria Movieplex</h5>
+                  <p className="card-text">
                     With supporting text below as a natural lead-in to
                     additional content.
                   </p>
-                  <a href="#" class="btn btn-primary">
+                  <Link to="#" className="btn btn-primary">
                     Go somewhere
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div class="card">
+            <div className="col">
+              <div className="card">
                 <img
                   src={shoppingmall}
-                  class="card-img-top"
+                  className="card-img-top"
                   alt="shoppingmall"
                 />
-                <div class="card-body">
-                  <h5 class="card-title">Kielce Construction</h5>
-                  <p class="card-text">
+                <div className="card-body">
+                  <h5 className="card-title">Kielce Construction</h5>
+                  <p className="card-text">
                     With supporting text below as a natural lead-in to
                     additional content.
                   </p>
-                  <a href="#" class="btn btn-primary">
+                  <Link to="#" className="btn btn-primary">
                     Go somewhere
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

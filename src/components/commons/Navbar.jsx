@@ -32,7 +32,7 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="#">
+              <Link className="nav-link" to="products">
                 Products
               </Link>
             </li>
@@ -78,13 +78,19 @@ function Navbar() {
               </ul>
             </li>
             <li className="nav-item">
-              <Link className="nav-link">Career</Link>
+              <Link className="nav-link" to="career">
+                Career
+              </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link">Announcement</Link>
+              <Link className="nav-link" to="announcement">
+                Announcement
+              </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link">Contact</Link>
+              <Link className="nav-link" to="contact">
+                Contact
+              </Link>
             </li>
           </ul>
           <form className="d-flex" role="search">

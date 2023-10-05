@@ -72,7 +72,7 @@ function HomePage() {
         </div>
       </section>
 
-      <section className="px-5">
+      <section className="px-5 mb-5">
         <div className="row row-cols-1 row-cols-lg-3 row-cols-md-1 g-4">
           <div className="col">
             <div
@@ -170,7 +170,7 @@ function HomePage() {
         </div>
       </section>
 
-      <section>
+      <section className="pt-5">
         <p className="text-center fs-4 text-warning">
           <small>We are working in all below segments</small>
         </p>
@@ -239,7 +239,7 @@ function HomePage() {
         </div>
       </section>
 
-      <section>
+      <section className="py-5">
         <div className="my-5">
           <p className="text-center fs-4 text-warning">
             <small>Brands we are dealing with</small>

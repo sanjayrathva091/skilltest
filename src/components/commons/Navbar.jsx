@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-warning bg-gradient fixed-top">
+    <nav className="navbar navbar-expand-lg bg-warning bg-gradient sticky-top">
       <div className="container-fluid">
-        <Link className="navbar-brand" to="#">
-          K.
+        <Link className="navbar-brand" to="/">
+          KORONA.
         </Link>
         <button
           className="navbar-toggler"

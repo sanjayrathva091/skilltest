@@ -5,7 +5,7 @@ import AppFooter from "../commons/AppFooter";
 function GlobalLayout() {
   return (
     <>
-      <div>{<Navbar />}</div>
+      {<Navbar />}
       <div className="content">
         {/* The Outlet component is used to render nested routes */}
         <Outlet />

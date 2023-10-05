@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function AppFooter() {
   return (
     <footer className="bg-body-secondary pt-5">
@@ -22,9 +24,15 @@ function AppFooter() {
             <div key={keey} className="col-12 col-md-6 col-lg-3">
               <h3>{keey.split("_").join(" ")}</h3>
               <ul>
-                {val.map((label, index) => (
+                {val.map(({ label, link }, index) => (
                   <li key={index} className="list-group-item my-1">
-                    {label}
+                    <Link
+                      to={link}
+                      className="link-dark link-underline-opacity-0"
+                    >
+                      {" "}
+                      {label}
+                    </Link>
                   </li>
                 ))}
               </ul>
@@ -47,23 +55,23 @@ export default AppFooter;
 
 const footerList = {
   Quick_Links: [
-    "About Us",
-    "Vision / Mission",
-    "Why Choose Us",
-    "Media Announcement",
-    "Careers",
-    "Contact Us",
+    { label: "About Us", link: "about" },
+    { label: "Vision / Mission", link: "about" },
+    { label: "Why Choose Us", link: "about" },
+    { label: "Media Announcement", link: "#" },
+    { label: "Careers", link: "career" },
+    { label: "Contact Us", link: "contact" },
   ],
   Partner_With_Us: [
-    "Suppliers / Vendors",
-    "Property Owners / Landlord",
-    "Supplier for Capital Goods",
+    { label: "Suppliers / Vendors", link: "#" },
+    { label: "Property Owners / Landlord", link: "#" },
+    { label: "Supplier for Capital Goods", link: "#" },
   ],
 
   Feedback: [
-    "Feedback From Customers",
-    "Feedback From Suppliers",
-    "Feedback From Employees",
-    "Feedback From Others",
+    { label: "Feedback From Customers", link: "#" },
+    { label: "Feedback From Suppliers", link: "#" },
+    { label: "Feedback From Employees", link: "#" },
+    { label: "Feedback From Others", link: "#" },
   ],
 };

@@ -46,9 +46,9 @@ function AboutPage() {
       </nav>
 
       <div>
-        At Korona Shopping Mall, we deliver happiness through quality products
-        at affordable prices. We exist to make your shopping life easy. Your
-        one-stop destination for groceries, apparel, footwear, household,
+        At Korona Shopping Enterprise, we deliver happiness through quality
+        products at affordable prices. We exist to make your shopping life easy.
+        Your one-stop destination for groceries, apparel, footwear, household,
         furniture, and daily needs, with 25,000+ products at convenient
         locations in Vadodara, Mehsana, Halol, Godhra, Surat, Visnagar, and
         Patan since 1988. Family-operated, customer satisfaction and product

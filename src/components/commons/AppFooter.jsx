@@ -42,7 +42,8 @@ function AppFooter() {
         <div className="row text-center">
           <p>
             <small>
-              Copyrights@2020 All rights reserved by Korona@Shopping mall, India
+              Copyrights@2020 All rights reserved by Korona@Shopping Enterprise,
+              India
             </small>
           </p>
         </div>

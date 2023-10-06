@@ -186,7 +186,7 @@ function HomePage() {
                   alt="shoppingmall"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Korona Shopping Mall</h5>
+                  <h5 className="card-title">Korona Shopping Enterprise</h5>
                   <p className="card-text">
                     With supporting text below as a natural lead-in to
                     additional content.

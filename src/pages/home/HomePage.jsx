@@ -10,7 +10,6 @@ import movieplex from "../../assets/movieplex.jpg";
 import deal1 from "../../assets/deal1.jpg";
 import deal2 from "../../assets/deal2.png";
 import deal3 from "../../assets/deal3.png";
-import deal4 from "../../assets/deal4.jpg";
 
 function HomePage() {
   return (

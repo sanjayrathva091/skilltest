@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import WeAreHiring from "../../assets/product_bb.jpg";
+import JobApplicationForm from "../../components/JobApplicationForm";
 
 function JobApplyPage() {
   return (
@@ -16,23 +17,41 @@ function JobApplyPage() {
         </div>
         {/* Career banner ends  */}
         {/* BreadCrumb starts */}
-        <nav aria-label="breadcrumb">
-          <ol className="breadcrumb">
-            <li className="breadcrumb-item">
-              <Link to="/">Home</Link>
+        <div className="container">
+          <nav aria-label="breadcrumb">
+            <ol className="breadcrumb">
+              <li className="breadcrumb-item">
+                <Link to="/">Home</Link>
+              </li>
+              <li className="breadcrumb-item">
+                <Link to="career">Career</Link>
+              </li>
+              <li className="breadcrumb-item active" aria-current="page">
+                <Link to="career">Opportunity</Link>
+              </li>
+              <li className="breadcrumb-item active" aria-current="page">
+                Apply
+              </li>
+            </ol>
+          </nav>
+          {/* BreadCrumb ends */}
+          <ul className="nav nav-underline">
+            <li className="nav-item">
+              <Link className="nav-link active" aria-current="page" to="">
+                Application Form
+              </Link>
             </li>
-            <li className="breadcrumb-item">
-              <Link to="career">Career</Link>
+            <li className="nav-item">
+              <Link
+                className="nav-link"
+                to="https://buy.stripe.com/7sI16U9rkbOx5jy5kl"
+              >
+                Application Fee
+              </Link>
             </li>
-            <li className="breadcrumb-item active" aria-current="page">
-              Opportunity
-            </li>
-            <li className="breadcrumb-item active" aria-current="page">
-              Apply
-            </li>
-          </ol>
-        </nav>
-        {/* BreadCrumb ends */}
+          </ul>
+          <JobApplicationForm />
+        </div>
       </section>
     </main>
   );

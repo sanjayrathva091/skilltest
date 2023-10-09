@@ -1,4 +1,4 @@
-import { Link, Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 import WeAreHiring from "../../assets/product_bb.jpg";
 import { AiTwotoneCalendar } from "react-icons/ai";
 import { BsFillPersonFill } from "react-icons/bs";

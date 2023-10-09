@@ -22,7 +22,7 @@ function HomePage() {
               <div className="card mb-3">
                 <div className="row g-0 align-items-center">
                   <div className="col-md-4">
-                    <BiSolidOffer size={75} />
+                    <BiSolidOffer size={75} fill="red" />
                   </div>
                   <div className="col-md-8">
                     <div className="card-body">
@@ -39,7 +39,7 @@ function HomePage() {
               <div className="card mb-3">
                 <div className="row g-0 align-items-center">
                   <div className="col-md-4">
-                    <MdVerifiedUser size={75} />
+                    <MdVerifiedUser size={75} fill="blue" />
                   </div>
                   <div className="col-md-8">
                     <div className="card-body">
@@ -56,7 +56,7 @@ function HomePage() {
               <div className="card mb-3">
                 <div className="row g-0 align-items-center">
                   <div className="col-md-4">
-                    <MdOutlineSentimentVerySatisfied size={75} />
+                    <MdOutlineSentimentVerySatisfied size={75} fill="green" />
                   </div>
                   <div className="col-md-8">
                     <div className="card-body">

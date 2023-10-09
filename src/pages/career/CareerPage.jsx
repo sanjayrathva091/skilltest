@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import WeAreHiring from "../../assets/product_bb.jpg";
 import { AiTwotoneCalendar } from "react-icons/ai";
 import { BsFillPersonFill } from "react-icons/bs";
@@ -53,9 +53,9 @@ function CareerPage() {
                   aria-label="Large select example"
                 >
                   <option selected>Select Department</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
+                  <option value="Operation">Operation</option>
+                  <option value="Accountant">Accountant</option>
+                  <option value="Sales">Sales</option>
                 </select>
               </div>
 
